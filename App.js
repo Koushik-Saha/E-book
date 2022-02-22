@@ -105,7 +105,7 @@ function App() {
   return (
       <NavigationContainer>
         <Drawer.Navigator
-            drawerContentOptions={{
+            screenOptions={{
               activeTintColor: '#e91e63',
               itemStyle: { marginVertical: 5 },
             }}
